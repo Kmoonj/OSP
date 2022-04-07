@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "project management in github"
+echo "project management in github_2"
 declare -a num
 value=$(<num1.txt)
 value2=$(<num2.txt)
