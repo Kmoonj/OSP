@@ -1,0 +1,23 @@
+What is Open Source?
+
+general definition:
+any software whose source code is freely distributed and allowing everybody to modify the code.
+
+Source code is released under a license is which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose.
+
+No one has exclusive control over the term "open source"
+Not an enforceable copyrighted term or trademark
+
+
+What is Free Software?
+OSS shares similarities with free software and is part of the boarder term free and open-source software(OSS)
+
+Free Software
+Freedom to run, copy, distribute, study, change and imporve the software.
+Freedom to run the program, for any purpose.
+Freedom to study how the program works, and adapt it to yours needs
+Freedom to redistribute copies so you can help others.
+Freedom to imporve the program, and release your imporvements to the public.
+
+Term "free"  can lead to negative marketing notions especially to business and corporate users.
+The word "free" in "free software" pertains to freedom, not price
