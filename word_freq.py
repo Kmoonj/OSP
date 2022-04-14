@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import sys
-import num
+import re 
 
 word.txt = sys.argv[1]
 num = int(sys.argv[2])
@@ -13,5 +13,12 @@ word_count = {}
 for i in range(linenum)
     lines[i] = 
     word_list = lines[i].split()
-    for
+    for word in word_list:
+        word_count[word] = word_count.get(word,0) + 1
+
+def cleanText(readData)
+    text = re.sub('[-=+,#/\?:^$.@*~&!<>|\[\]'\'],",readData)
+    return text
+
+
 
