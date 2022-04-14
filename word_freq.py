@@ -23,5 +23,5 @@ for i in range(linenum):
 word_list = sorted(word_count.items(), key=lambda x: x[1], reverse=True)
 
 for k,v in word_list[:num]:
-    print(str(k).ljust(6),str(v).rjust(6))
+    print(str(k).ljust(10),str(v).rjust(3))
 
