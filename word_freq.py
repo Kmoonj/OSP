@@ -7,7 +7,7 @@ def cleanText(readData):
     text = re.sub('[-=+,#/\?:^$.@*\"※~&%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》]','',readData)
     return text
 
-word.txt = sys.argv[1]
+textFile = sys.argv[1]
 num = int(sys.argv[2])
 fopen = open(textFile)
 lines = fopen.readlines()
