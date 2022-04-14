@@ -13,4 +13,5 @@ word_count = {}
 for i in range(linenum)
     lines[i] = 
     word_list = lines[i].split()
+    for
 
