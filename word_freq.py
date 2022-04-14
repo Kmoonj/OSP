@@ -4,7 +4,7 @@ import sys
 import re 
 
 def cleanText(readData):
-    text = re.sub('[-=+,#!@$%^&*(\)\~.<\>'\'[\]{|}]','',readData)
+    text = re.sub('[-=+,#/\?:^$.@*\"※~&%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》]','',readData)
     return text
 
 word.txt = sys.argv[1]
