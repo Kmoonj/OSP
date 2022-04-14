@@ -14,8 +14,8 @@ lines = fopen.readlines()
 linenum = len(lines)
 word_count = {}
 
-for i in range(linenum)
-    lines[i] = 
+for i in range(linenum):
+    lines[i] = cleanText(lines[i]) 
     word_list = lines[i].split()
     for word in word_list:
         word_count[word] = word_count.get(word,0) + 1
