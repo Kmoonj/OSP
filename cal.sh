@@ -1,39 +1,42 @@
 #!/bin/bash
 
+echo "project management in github_2"
+declare -a num
 value=$(<num1.txt)
 value2=$(<num2.txt)
+num=($value $value2)
 
 add()
 {
-	echo "num1 : $value"
-        echo "num2 : $value2"
+	echo "num1 : ${num[0]}"
+        echo "num2 : ${num[1]}"
         echo "op : add"
-        echo "result : $(expr $value + $value2)"
+        echo "result : $(expr ${num[0]} + ${num[1]})"
 }
 
 sub()
 {
-        echo "num1 : $value"
-        echo "num2 : $value2"
+        echo "num1 : ${num[0]}"
+        echo "num2 : ${num[1]}"
         echo "op : sub"
-        echo "result : $(expr $value - $value2)"
+        echo "result : $(expr ${num[0]} - ${num[1]})"
 }
 
 div()
 {
-        echo "num1 : $value"
-        echo "num2 : $value2"
+        echo "num1 : ${num[0]}"
+        echo "num2 : ${num[1]}"
         echo "op : div"
-        echo "result : $(expr $value / $value2)"
+        echo "result : $(expr ${num[0]} / ${num[1]})"
 
 }
 
 mul()
 {
-        echo "num1 : $value"
-        echo "num2 : $value2"
+        echo "num1 : ${num[0]}"
+        echo "num2 : ${num[1]}"
         echo "op : mul"
-        echo "result : $(expr $value \* $value2)"
+        echo "result : $(expr ${num[0]} \* ${num[1]})"
 }
 
 if [ -n "$menu" ]
