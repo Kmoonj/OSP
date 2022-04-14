@@ -9,7 +9,7 @@ def cleanText(readData):
 
 word.txt = sys.argv[1]
 num = int(sys.argv[2])
-fopen = open(word.txt)
+fopen = open(textfile.txt)
 lines = fopen.readlines()
 linenum = len(lines)
 word_count = {}
