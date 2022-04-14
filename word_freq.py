@@ -20,5 +20,8 @@ for i in range(linenum)
     for word in word_list:
         word_count[word] = word_count.get(word,0) + 1
 
+word_list = sorted(word_count.items(), key=lambda x: x[1], reverse=True)
 
+for k,v in word_list[:num]
+    print(k+" "+v)
 
